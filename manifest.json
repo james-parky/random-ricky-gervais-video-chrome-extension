@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Random Ricky Gervais Video Selector",
+    "description": "This extension will automatically randomly select one of the episodes of The Ricky Gervais Show and start it playing through YouTube in a new tab",
+    "version": "1.1.0",
+    "permissions": ["tabs"],
+    "icons": { "16": "ricky.png", "48": "ricky.png", "128": "ricky.png" },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": { "default_icon": "ricky.png" }
+}
